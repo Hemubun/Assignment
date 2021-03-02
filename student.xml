@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sd>
+    <student>
+        <name>Hemant</name>
+        <email>Prajaptih50@gmail.com</email>
+        <cnumber>9118530417</cnumber>
+        <degree>MCA</degree>
+        <join>21-06-2020</join>
+    </student>
+    <student>
+        <name>Shubham</name>
+        <email>Shubham@gmail.com</email>
+        <cnumber>8601941548</cnumber>
+        <degree>B.Tech</degree>
+        <join>28-06-2020</join>
+    </student>
+    <student>
+        <name>Bunty</name>
+        <email>Bunty@gmail.com</email>
+        <cnumber>8299685198</cnumber>
+        <degree>BCA</degree>
+        <join>30-06-2020</join>
+    </student>
+    <student>
+        <name>Alok</name>
+        <email>Alok@gmail.com</email>
+        <cnumber>6384156347</cnumber>
+        <degree>B.Com</degree>
+        <join>01-07-2020</join>
+    </student>
+    <student>
+        <name>Atul</name>
+        <email>Atul@gmail.com</email>
+        <cnumber>9838438442</cnumber>
+        <degree>BBA</degree>
+        <join>12-07-2020</join>
+    </student>
+</sd>
