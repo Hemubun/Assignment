@@ -3,6 +3,75 @@
     <head>
         <title>Registration Form</title>
     </head>
+    <script>
+        function validateForm(regform)
+        {
+            var name=document.forms["regform"]["name"].value;
+            var gn=document.forms["regform"]["gender"];
+            var mail=document.forms["regform"]["email"].value;
+            var mnumber=document.forms["regform"]["mnumber"].value;
+            var pass=document.forms["regform"]["password"].value;
+            var cpass=document.forms["regform"]["cpassword"].value;
+            var addr=document.forms["regform"]["address"].value;
+            var course=document.forms["regform"]["course"];
+            var year=document.forms["regform"]["year"];
+            var sem=document.forms["regform"]["semester"];
+            var dob=document.forms["regform"]["DateofBirth"]
+
+            if(name==null||name=="")
+            {
+                alert("Name cannot be blank")
+                return false;
+            }
+            else if(gn[0].checked==false)&&(gn[1].checked==false)
+            {
+                alert("Please enter your gender")
+                return false;
+            }
+            else if(mail==null||mail=="")
+            {
+                alert("Please enter your email")
+                return false;
+            }
+            else if(mnumber==null||mnumber=="")
+            {
+                alert("Please enter your Mobile Number")
+                return false;
+            }
+            else if(pass==null||pass=="")
+            {
+                alert("Please enter your password")
+                return false;
+            }
+            else if(cpass==null||cpassword)
+            {
+                alert("Please confirm your password")
+                return false;
+            }
+            else if(addr==null||addr=="")
+            {
+                alert("Please enter your address")
+                return false;
+            }
+            else if(course.selectedIndex==0)
+            {
+                alert("Please enter your course name")
+                return false;
+            }
+            else if(year.selectedIndex==0)
+            {
+                alert("Please enter your year")
+                return false;
+            }
+            else if(sem.selectedIndex==0)
+            {
+                alert("Please enter your semester")
+                return false;
+            }
+            
+
+        }
+    </script>
     <style>
         *{
             margin: 0;
